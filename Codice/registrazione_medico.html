@@ -1,0 +1,131 @@
+<html>
+
+	<head>
+			<title>Registrazione medico</title>
+			
+																	<!--Questo tag mette la favicon alla propria pagina web -->
+			<link rel="ICON" href="favicon.ico" type="image/ico">
+																	<!--I tag meta servono per mantenere delle informazioni sul documento
+																		  come l'autore , le keyword e il programma che ha generato il 
+																		  documento -->
+			<meta name="author" content="Cataletti, Rotolo, D'Auria, Nunziata">
+			<meta name="description" content="">
+			
+			
+																	<!--Legge tutti i caratteri speciali-->
+			<meta http-equiv="Content-type" content="text/html; CHARSET=utf-8"> 
+			
+			
+	</head>
+		
+	<body>
+		<br><br>
+		
+			<div><center><font size = 5>Registrati alla piattaforma!<br>Inserisci qui i tuoi dati.</font></center></div>
+			
+			<br><br><br>
+		<form action="RegistraMedico.php" method="get">
+		<table width="900" height="440" align="center" bgcolor="#000000" border="0">
+			<tbody>
+				<tr>
+					<td bgcolor="#ffffff">
+						
+						<table align="center" bgcolor="#000000" border="0" rules="all">
+							<tbody>
+								<tr height="60">
+									<td bgcolor="#ffffff">
+										&nbsp Nome:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="name" type="text">&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp Indirizzo dello studio:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="address" type="text">&nbsp
+									</td>
+								</tr>
+								<tr height="60">
+									<td bgcolor="#ffffff">
+										&nbsp Cognome:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="surname" type="text">&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp Email:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="email" type="email">&nbsp
+									</td>
+								</tr>
+								<tr height="60">
+									<td bgcolor="#ffffff">
+										&nbsp Codice attestato medico:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input  name="codiceattestato" type="text" maxlength="16">&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp Password:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="password" type="password">&nbsp
+									</td>
+								</tr>
+								<tr height="60">
+									<td bgcolor="#ffffff">
+										&nbsp Data di nascita (gg\mm\aaaa) :&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="giornonascita" type="text" maxlength="2" size="1">&nbsp \
+										<input name="mesenascita" type="text" maxlength="2" size="1">&nbsp \
+										<input name="annonascita" type="text" maxlength="4" size="2">&nbsp
+									</td>
+									
+									
+									<td bgcolor="#ffffff">
+										&nbsp Ripeti password:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="rpassword" type="password">&nbsp
+									</td>
+								</tr>
+								<tr height="60">
+									<td bgcolor="#ffffff">
+										&nbsp Residenza dello studio:&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+										&nbsp <input name="residenza" type="text">&nbsp
+									</td>
+									
+									<td bgcolor="#ffffff">
+									</td>
+									
+									<td bgcolor="#ffffff">
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<br><br>
+						<div align="right"><input name="completaregistrazione" type="submit" value="Completa registrazione"></input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+					</td>
+				</tr>
+			</tbody> 
+		</table>
+		</form>
+	</body>	
+</html>
